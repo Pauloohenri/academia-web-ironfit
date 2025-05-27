@@ -1,1 +1,1 @@
-[Academia_IronFit.pdf](https://github.com/user-attachments/files/20466065/Academia_IronFit.pdf)
+[Academia_IronFit (2).pdf](https://github.com/user-attachments/files/20466935/Academia_IronFit.2.pdf)
