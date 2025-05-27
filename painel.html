@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Painel do Usuário</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>IronFit<span>Gym</span></h1>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="matricula.html">Matrícula</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="painel.html" class="active">Painel do aluno</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <section class="enrollment">
+    <div class="container">
+      <h2 class="section-title">Painel do Usuário</h2>
+      <p class="section-subtitle">Veja seus dados abaixo:</p>
+      <div class="enrollment-form">
+        <div class="form-group">
+          <label>Usuário logado:</label>
+          <input type="text" id="user-email" disabled />
+        </div>
+      <div class="form-group">
+        <label>Dados da Matrícula:</label>
+        <div id="matricula-dados" class="dados-container"></div>
+       </div>
+
+        <div class="form-actions">
+          <button onclick="logout()" class="btn btn-large">Sair</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+<!-- Seu script de configuração -->
+<script src="js/firebase-config.js"></script>
+
+<!-- Seu script da página -->
+<script src="js/painel.js"></script>
+
+</body>
+</html>

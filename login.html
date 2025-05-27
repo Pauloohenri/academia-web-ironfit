@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login - IronFit Gym</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+   <header>
+        <div class="container">
+            <div class="logo">
+                <h1>IronFit<span>Gym</span></h1>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="matricula.html">Matrícula</a></li>
+                    <li><a href="login.html" class="active">Login</a></li>
+                    <li><a href="painel.html">Painel do aluno</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+  <section class="enrollment">
+    <div class="container">
+      <h2 class="section-title">Acesso ao Sistema</h2>
+      <p class="section-subtitle">Faça login com seu e-mail e senha</p>
+      <div class="enrollment-form">
+        <form id="login-form">
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" required />
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-large">Entrar</button>
+            <p id="login-error" class="error-message"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<!-- Firebase SDKs compat -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+
+<!-- Seu script de configuração -->
+<script src="js/firebase-config.js"></script>
+
+<!-- Seu script da página -->
+<script src="js/login.js"></script>
+
+</body>
+</html>

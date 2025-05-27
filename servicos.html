@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - IronFit Gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <header>
+        <div class="container">
+            <div class="logo">
+                <h1>IronFit<span>Gym</span></h1>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="servicos.html" class="active">Serviços</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="matricula.html">Matrícula</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="painel.html">Painel do aluno</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="page-header">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <p>Conheça todas as atividades disponíveis na IronFit Gym</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="tab-btn active" data-tab="musculacao">Musculação</div>
+                    <div class="tab-btn" data-tab="aulas">Aulas Coletivas</div>
+                    <div class="tab-btn" data-tab="funcional">Treino Funcional</div>
+                    <div class="tab-btn" data-tab="personal">Personal Trainer</div>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="musculacao">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="images\musculacao.jpg" alt="Musculação">
+                            </div>
+                            <div class="service-info">
+                                <h3>Musculação</h3>
+                                <p>Nossa área de musculação conta com equipamentos de última geração para todos os grupos musculares. Instrutores qualificados estão sempre disponíveis para auxiliar no seu treino.</p>
+                                <h4>Horários:</h4>
+                                <ul class="schedule">
+                                    <li><strong>Segunda a Sexta:</strong> 06h às 23h</li>
+                                    <li><strong>Sábados:</strong> 08h às 20h</li>
+                                    <li><strong>Domingos e Feriados:</strong> 09h às 15h</li>
+                                </ul>
+                                <h4>Benefícios:</h4>
+                                <ul class="benefits">
+                                    <li><i class="fas fa-check"></i> Aumento da massa muscular</li>
+                                    <li><i class="fas fa-check"></i> Fortalecimento ósseo</li>
+                                    <li><i class="fas fa-check"></i> Melhora da postura</li>
+                                    <li><i class="fas fa-check"></i> Aumento da resistência física</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="aulas">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="images\aulascoletivas.jpg" alt="Aulas Coletivas">
+                            </div>
+                            <div class="service-info">
+                                <h3>Aulas Coletivas</h3>
+                                <p>Oferecemos diversas modalidades de aulas coletivas para todos os gostos e objetivos. Nossas aulas são ministradas por professores especializados em cada modalidade.</p>
+                                
+                                <div class="class-types">
+                                    <div class="class-type">
+                                        <h4>Spinning</h4>
+                                        <p>Aulas de ciclismo indoor com música energética.</p>
+                                        <p><strong>Horários:</strong> Seg, Qua e Sex às 7h, 12h e 19h</p>
+                                    </div>
+                                    <div class="class-type">
+                                        <h4>Zumba</h4>
+                                        <p>Dança com ritmos latinos e movimentos aeróbicos.</p>
+                                        <p><strong>Horários:</strong> Ter e Qui às 8h e 19h, Sáb às 10h</p>
+                                    </div>
+                                    <div class="class-type">
+                                        <h4>Body Pump</h4>
+                                        <p>Treino com barras e pesos para definição muscular.</p>
+                                        <p><strong>Horários:</strong> Seg, Qua e Sex às 8h e 18h</p>
+                                    </div>
+                                    <div class="class-type">
+                                        <h4>Pilates</h4>
+                                        <p>Exercícios de controle muscular e respiração.</p>
+                                        <p><strong>Horários:</strong> Ter e Qui às 7h, 12h e 18h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="funcional">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="images\funcional.jpeg" alt="Treino Funcional">
+                            </div>
+                            <div class="service-info">
+                                <h3>Treino Funcional</h3>
+                                <p>O treinamento funcional visa melhorar os movimentos do dia a dia, trabalhando força, equilíbrio, coordenação e resistência em exercícios que simulam atividades cotidianas.</p>
+                                <h4>Horários:</h4>
+                                <ul class="schedule">
+                                    <li><strong>Segunda, Quarta e Sexta:</strong> 7h, 12h, 18h e 20h</li>
+                                    <li><strong>Terça e Quinta:</strong> 8h, 13h e 19h</li>
+                                    <li><strong>Sábados:</strong> 9h e 11h</li>
+                                </ul>
+                                <h4>Benefícios:</h4>
+                                <ul class="benefits">
+                                    <li><i class="fas fa-check"></i> Melhora da capacidade funcional</li>
+                                    <li><i class="fas fa-check"></i> Queima calórica elevada</li>
+                                    <li><i class="fas fa-check"></i> Treino completo em menos tempo</li>
+                                    <li><i class="fas fa-check"></i> Prevenção de lesões</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="personal">
+                        <div class="service-content">
+                            <div class="service-image">
+                                <img src="images\personal.jpeg" alt="Personal Trainer">
+                            </div>
+                            <div class="service-info">
+                                <h3>Personal Trainer</h3>
+                                <p>Treinamento personalizado com acompanhamento exclusivo de um profissional de educação física. O treino é elaborado de acordo com seus objetivos e limitações.</p>
+                                <h4>Vantagens do Personal Trainer:</h4>
+                                <ul class="benefits">
+                                    <li><i class="fas fa-check"></i> Treino personalizado para seus objetivos</li>
+                                    <li><i class="fas fa-check"></i> Acompanhamento constante</li>
+                                    <li><i class="fas fa-check"></i> Correção imediata de postura</li>
+                                    <li><i class="fas fa-check"></i> Resultados mais rápidos</li>
+                                    <li><i class="fas fa-check"></i> Maior motivação</li>
+                                </ul>
+                                <div class="personal-pricing">
+                                    <h4>Pacotes:</h4>
+                                    <div class="pricing-options">
+                                        <div class="price-option">
+                                            <h5>4 sessões/mês</h5>
+                                            <p class="price">R$ 320,00</p>
+                                            <p>(R$ 80,00 por sessão)</p>
+                                        </div>
+                                        <div class="price-option">
+                                            <h5>8 sessões/mês</h5>
+                                            <p class="price">R$ 560,00</p>
+                                            <p>(R$ 70,00 por sessão)</p>
+                                        </div>
+                                        <div class="price-option">
+                                            <h5>12 sessões/mês</h5>
+                                            <p class="price">R$ 720,00</p>
+                                            <p>(R$ 60,00 por sessão)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="price-calculator">
+        <div class="container">
+            <h2 class="section-title">Calcule o valor do seu plano</h2>
+            <div class="calculator">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="plan-type">Tipo de Plano:</label>
+                        <select id="plan-type">
+                            <option value="basic">Básico - R$ 89,90/mês</option>
+                            <option value="premium">Premium - R$ 129,90/mês</option>
+                            <option value="family">Família - R$ 199,90/mês</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="plan-duration">Duração:</label>
+                        <select id="plan-duration">
+                            <option value="1">1 mês</option>
+                            <option value="3">3 meses (5% de desconto)</option>
+                            <option value="6">6 meses (10% de desconto)</option>
+                            <option value="12">12 meses (15% de desconto)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="add-personal">Adicionar Personal Trainer:</label>
+                        <select id="add-personal">
+                            <option value="0">Não</option>
+                            <option value="4">4 sessões/mês (R$ 320,00)</option>
+                            <option value="8">8 sessões/mês (R$ 560,00)</option>
+                            <option value="12">12 sessões/mês (R$ 720,00)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="add-towel">Adicionar serviço de toalhas:</label>
+                        <select id="add-towel">
+                            <option value="0">Não</option>
+                            <option value="1">Sim (R$ 30,00/mês)</option>
+                        </select>
+                    </div>
+                    <button id="calculate-btn" class="btn">Calcular</button>
+                </div>
+                <div class="calculator-result">
+                    <h3>Resumo do Plano</h3>
+                    <div id="plan-summary">
+                        <p>Selecione as opções e clique em calcular</p>
+                    </div>
+                    <div id="plan-total">
+                        <h4>Total: <span id="total-price">R$ 0,00</span></h4>
+                        <p id="monthly-price"></p>
+                    </div>
+                    <a href="matricula.html" class="btn">Matricular-se com este plano</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para começar sua transformação?</h2>
+            <p>Matricule-se hoje e ganhe 7 dias grátis!</p>
+            <a href="matricula.html" class="btn btn-large">Começar agora</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>IronFit<span>Gym</span></h2>
+                    <p>Transformando vidas desde 2010</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="matricula.html">Matrícula</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Homero castelo branco, 345 - Joquei</p>
+                    <p><i class="fas fa-phone"></i> (86) 99992-2230</p>
+                    <p><i class="fas fa-envelope"></i> contato@ironfitgym.com</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 IronFit Gym. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
